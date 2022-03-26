@@ -1,0 +1,134 @@
+@import url("https://fonts.google.com/specimen/Libre+Franklin");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  font-family: "Libre Franklin";
+  font-weight: 300, 600, 700;
+  font-size: 62.5%;
+  text-align: center;
+}
+img {
+  width: 100%;
+}
+.ping {
+  padding: 9rem 2rem 2rem;
+}
+.ping .image img {
+  width: 20%;
+  margin-bottom: 3.5rem;
+}
+.ping .head h1 {
+  font-size: 2rem;
+  color: hsl(0, 0%, 59%);
+  padding-bottom: 1.5rem;
+}
+.ping .head h1 strong {
+  font-size: 2rem;
+  color: hsl(209, 33%, 12%);
+}
+.ping .head p {
+  font-size: 1.3rem;
+  padding-bottom: 1.5rem;
+}
+.ping .form {
+  margin-bottom: 7rem;
+  padding: 0 2rem;
+}
+.ping .form input {
+  display: block;
+  font-size: 1.3rem;
+  padding: 1.2rem;
+  width: 100%;
+  margin: 1rem auto;
+  border-radius: 2rem;
+}
+.ping .form  .input-control .error {
+  color: hsl(354, 100%, 66%);
+  font-size: 1.15rem;
+  height: 1rem;
+  font-style: italic;
+}
+.ping .form .input-control .error input[type="text"] {
+  border-color: hsl(354, 100%, 66%);
+}
+
+.ping .form .input-control .success input[type="text"] {
+  border-color: #4cbe3a;
+}
+.ping .form .text_btn {
+  border: 1.4px solid hsl(223, 100%, 88%);
+  text-align: left;
+  padding-left: 2.8rem;
+}
+.ping .form .text_btn::placeholder {
+  color: hsl(223, 100%, 88%);
+  opacity: 0.7;
+}
+.ping .form .sub-btn {
+  color: white;
+  background: hsl(223, 87%, 63%);
+  box-shadow: 2px 4px 20px hsla(223, 100%, 88%, 0.99);
+}
+.ping .form .error_one{
+  display: none;
+}
+.ping .ill {
+  margin-bottom: 13rem;
+}
+.ping .foot .icons {
+  margin: 2rem 0 4rem;
+}
+.ping .foot .icons a i {
+  color: hsl(223, 87%, 63%);
+  font-size: 1.5rem;
+  padding: 0.7rem;
+  border: 1px solid hsl(223, 100%, 88%);
+  border-radius: 50%;
+}
+.icons a:not(:last-child) {
+  margin-right: 1rem;
+}
+.ping .foot p {
+  color: hsl(0, 0%, 59%);
+  font-size: 1.2rem;
+}
+.attribution {
+  font-size: 1.1rem;
+  text-align: center;
+}
+.attribution a {
+  font-size: inherit;
+  color: hsl(228, 45%, 44%);
+}
+@media (min-width: 1024px) {
+  .ping{
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .ping .image img {
+    width: 10%;
+  }
+  .ping .form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ping .form .text_btn{
+    width: 132%;
+    margin-top: 2rem;
+  }
+  .ping .form .sub-btn{
+    width: 27%;
+  }
+  .ping .form .sub-btn:hover{
+    opacity: .7;
+  }
+  .ping .foot .icons a i:hover{
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+  }
+}
